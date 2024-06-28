@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TrabalhoFinal
+{
+    internal class MenuCliente
+    {
+        public void ChamarOSegundoMenu()
+        {
+            int acao = -1;
+            while (acao != 0)
+            {
+                acao = ExibirMenu();
+            }
+        }
+
+
+        public int ExibirMenu()
+        {
+            Console.WriteLine($"----------- Menu Cliente ---------" +
+                $"\n 1 -Reservar " +
+                $"\n 2 -Receber Cupom" +
+                $"\n 3 -Frequencia" +
+                $"\n 4 -Editar Usuario" +
+                $"\n 5 -Suporte" +
+                $"\n 6 -Sair da conta" +
+                $"\n 0 -Fechar Programa" +
+                $"\n Digite qual ação deseja Realizar" +
+                $"\n -------------------------------------");
+            int acao = int.Parse(Console.ReadLine());
+            if ( acao > 6 || acao < 0 )
+            {
+                Console.WriteLine("Error");
+            }
+            return acao;
+        }
+    }
+}

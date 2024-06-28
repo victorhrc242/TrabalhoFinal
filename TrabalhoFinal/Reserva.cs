@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TrabalhoFinal
 {
-    internal class Usuario
+    internal class Reserva
     {
+        List<Reserva> reservar = new List<Reserva>();
+        public int IdCliente { get; set; }
     }
 }
