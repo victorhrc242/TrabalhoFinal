@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TrabalhoFinal;
+
+primeiro_Menu p = new primeiro_Menu();
+p.chamarprimeiromenu();
