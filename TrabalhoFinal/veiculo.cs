@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace TrabalhoFinal
 {
-    internal class veiculo
+    public class veiculo
     {
-
+        List<veiculo> Carro = new List<veiculo>();
+        List<veiculo> Moto = new List<veiculo>();
+        public int Modelo { get; set; }
+        public string Marca { get; set; }
+        public int Ano { get; set; }
+        public string Fabricadora { get; set; }
     }
 }

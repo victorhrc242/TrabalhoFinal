@@ -6,18 +6,15 @@ using System.Threading.Tasks;
 
 namespace TrabalhoFinal
 {
-    internal class MenuCliente
+    public class MenuCliente
     {
-      
-
-
         public int ExibirMenu()
         {
             Console.WriteLine($"----------- Menu Cliente ---------" +
                 $"\n 1 -Reservar " +
                 $"\n 2 -Receber Cupom" +
                 $"\n 3 -Frequencia" +
-                $"\n 4 -Editar Usuario" +
+                $"\n 4 -Editar Vaga" +
                 $"\n 5 -Suporte" +
                 $"\n 6 -Sair da conta" +
                 $"\n 0 -Fechar Programa" +
