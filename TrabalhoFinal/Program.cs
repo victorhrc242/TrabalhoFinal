@@ -1,4 +1,4 @@
 ﻿using TrabalhoFinal;
 
-MenuCliente tes = new MenuCliente();
-tes.ChamarOSegundoMenu();
+primeiro_Menu p = new primeiro_Menu();
+p.chamarprimeiromenu();

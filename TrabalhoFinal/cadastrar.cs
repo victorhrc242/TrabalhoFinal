@@ -9,6 +9,7 @@ namespace TrabalhoFinal
 {
    public class cadastrar
     {
+        cadastrar_usuarios cr = new cadastrar_usuarios();
         public void escolherAcao()
         {
             Console.WriteLine("-------------CADASTRAR---------------\n" +
@@ -17,21 +18,19 @@ namespace TrabalhoFinal
                                          "2-ADMINISTRADOR");
 
           int acao=int.Parse(Console.ReadLine());
-        }
-        public int escolheraco(int acao)
-        {
             switch (acao)
             {
                 case 1:
-
+                    cr.cadastrocliente();
                     break;
                 case 2:
-
+                    cr.cadastroadministrador();
                     break;
             }
-            
-            return acao;
+
+         
         }
+        
         
         
        

@@ -8,14 +8,7 @@ namespace TrabalhoFinal
 {
     internal class MenuCliente
     {
-        public void ChamarOSegundoMenu()
-        {
-            int acao = -1;
-            while (acao != 0)
-            {
-                acao = ExibirMenu();
-            }
-        }
+      
 
 
         public int ExibirMenu()
