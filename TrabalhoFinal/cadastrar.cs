@@ -12,7 +12,7 @@ namespace TrabalhoFinal
         public void escolherAcao()
         {
             Console.WriteLine("-------------CADASTRAR---------------\n" +
-                                         "O QUE Voce?\n" +
+                                         "O QUE Voce\n" +
                                          "1-CLIENTE\n" +
                                          "2-ADMINISTRADOR");
 

@@ -28,7 +28,7 @@ namespace TrabalhoFinal
             int acao = -1;
             while (acao > 2 || acao < 0)
             {
-                Console.WriteLine("qual ação voce deseja realizar");
+                Console.WriteLine("qual ação voce deseja reaizar");
                 acao = int.Parse(Console.ReadLine());
                 if (acao > 2 || acao <= 0)
                 {
