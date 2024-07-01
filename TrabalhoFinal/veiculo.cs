@@ -14,5 +14,18 @@ namespace TrabalhoFinal
         public string Marca { get; set; }
         public int Ano { get; set; }
         public string Fabricadora { get; set; }
+
+        public void VerificarVeiculoDoUsuario()
+        {
+            //
+            Carro.Clear();
+            Moto.Clear();
+            if (Marca == null )
+            {
+
+            }
+        } 
+
+
     }
 }
