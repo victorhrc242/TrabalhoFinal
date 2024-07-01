@@ -11,6 +11,7 @@ namespace TrabalhoFinal
     {
         // primeira parte do menu
         cadastrar c = new cadastrar();
+        Entrar e=new Entrar();
         public int chamarprimeiromenu()
         {
             int acaoselecionada = -1;
@@ -61,7 +62,7 @@ namespace TrabalhoFinal
                     break;
                     case 2:
 
-                    
+                    e.entrar();
 
                     break;
             }

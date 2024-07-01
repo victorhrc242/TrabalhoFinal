@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TrabalhoFinal
 {
-    public class MenuCliente
-    {
-        public int ExibirMenu()
+    public static class MenuCliente
+    { 
+        public static int ExibirMenu()
         {
             Console.WriteLine($"----------- Menu Cliente ---------" +
                 $"\n 1 -Reservar " +
